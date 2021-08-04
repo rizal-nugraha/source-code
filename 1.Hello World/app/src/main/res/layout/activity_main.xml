@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/good_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     tools:context=".MainActivity">
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_ku_snack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="9sp"
+        android:text="@string/anction_listener_untuk_snackbar"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/black"
+        app:rippleColor="@color/black"/>
 
 
     <com.google.android.material.button.MaterialButton
@@ -17,5 +29,7 @@
         android:textColor="@color/white"
         app:backgroundTint="@color/black"
         app:rippleColor="@color/black"/>
+
+
 
 </LinearLayout>
